@@ -17,14 +17,14 @@
     margin-top: 10px;
 }
 
-.forms {
+.userForms {
     float: right;
     list-style: none;
     color: #F9F9F9;
     margin-top: 25px;
 }
 
-.forms li {
+.userForms li {
     display: inline-block;
     font-size: 15px;
     margin-right: 50px;
@@ -33,34 +33,35 @@
     background-color: transparent;
 }
 
-.forms .signUp {
+.userForms .signUp {
     background-color: #d60022;
     border: 1px solid #d60022;
 }
 
-.forms li a {
+.userForms a li {
     color: #F9F9F9;
     text-decoration: none;
 }
 
-.introText {
-    margin-top: 50px;
+.introSection {
+    margin-top: 150px;
 }
 
-.introText h1 {
+.introSection h1 {
     color: #f9f9f9;
-    font-size: 38px;
-    margin-top: 125px;
+    font-size: 40px;
+    margin-left: 10px;
 }
 
 .searchForm {
     width: 60%;
     margin-top: 50px;
-    margin-left: 250px;
+    margin-left: 280px;
 }
 
 .searchBar {
     height: 8vh;
+    outline: none;
     border-left-style: none;
 }
 
@@ -68,12 +69,13 @@
     height: 8vh;
 }
 
-.locationIcon {
-    margin-top: -160px;
-}
-
 .searchIcon .input-group-addon {
     background: white;
-    color: #d60022;
-    font-size: 15px;
+    color: #da1414;
+    font-size: 20px;
+}
+
+.searchIcon .btn-secondary {
+    background: #da1414;
+    color: #F9F9F9;
 }
