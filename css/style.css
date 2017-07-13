@@ -141,3 +141,10 @@ borderThree p {
 .imageSection h2 {
     color: #2E2E2E;
 }
+
+.h img {
+    width: auto;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+}
