@@ -4,6 +4,10 @@
 }
 */
 
+body {
+    background: #F9F9F9;
+}
+
 .headerSection {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/foodImage.jpg");
     height: 100vh;
@@ -60,17 +64,18 @@
 }
 
 .searchBar {
-    height: 8vh;
+    height: 9vh;
     outline: none;
     border-left-style: none;
+    background: #F9F9F9;
 }
 
 .btn-secondary {
-    height: 8vh;
+    height: 9vh;
 }
 
 .searchIcon .input-group-addon {
-    background: white;
+    background: #F9F9F9;
     color: #da1414;
     font-size: 20px;
 }
@@ -78,4 +83,53 @@
 .searchIcon .btn-secondary {
     background: #da1414;
     color: #F9F9F9;
+}
+
+.aboutSection {
+    height: 100vh;
+}
+
+.aboutSection h2 {
+    margin-top: 60px;
+    color: #da1414;
+}
+
+.border p {
+    font-size: 15px;
+    color: #3e3c3c;
+    margin-top: 10px;
+}
+
+.border h4 {
+    font-size: 20px;
+    color: #da1414;
+}
+
+borderThree p {
+    font-size: 15px;
+    color: #3e3c3c;
+    margin-top: 10px;
+}
+
+.borderThree h4 {
+    font-size: 20px;
+    color: #da1414;
+}
+
+.border {
+    margin-top: 30px;
+    border: 1px solid #e2dfdf;
+    height: 16rem;
+    width: 35rem;
+    padding: 10px 25px 25px 25px;
+    margin-right: 35px;
+}
+
+.borderThree {
+    margin-top: 30px;
+    height: 16rem;
+    border: 1px solid #e2dfdf;
+    width: 36rem;
+    padding: 10px 25px 25px 25px;
+    /*margin-right: 10px;*/
 }
