@@ -198,8 +198,9 @@ borderThree p {
 }
 
 .signUpHeader img {
-    width: 80px;
-    margin-left: 615px;
+    padding-top: 2px;
+    width: 70px;
+    margin-left: 625px;
 }
 
 .signUpHeader .logInDetailSection {
