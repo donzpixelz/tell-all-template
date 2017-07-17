@@ -135,16 +135,56 @@ borderThree p {
 }
 
 .imageSection {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
-.imageSection h2 {
+.imageSection h3 {
     color: #2E2E2E;
+    margin-left: 12px;
+    margin-bottom: -60px;
 }
 
 .h img {
-    width: auto;
+    /*        width: 350px;*/
     height: 200px;
     background-position: center;
     background-size: contain;
+    margin-top: 80px;
+}
+
+.footer {
+    height: 47vh;
+    background: #3e3c3c;
+    color: #e2dfdf;
+    margin-top: 200px;
+}
+
+.termsAndConditions h4 {
+    margin-top: 50px;
+}
+
+.termsAndConditions li {
+    list-style: none;
+    margin-top: 70px;
+    margin-left: 50px;
+    display: inline-block;
+    padding: 15px;
+    color: #9a9a9a;
+    text-align: center;
+}
+
+.termsAndConditions p {
+    padding: 18px;
+    /*    margin-top: 10px;*/
+}
+
+.aboutUsDescription img {
+    margin-left: 240px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.aboutUsDescription p {
+    text-align: justify;
+    margin-left: 50px;
 }
