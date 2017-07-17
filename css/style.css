@@ -188,3 +188,29 @@ borderThree p {
     text-align: justify;
     margin-left: 50px;
 }
+
+
+/*----------------------end of index styling--------------*/
+
+.signUpHeader {
+    height: 8vh;
+    background: linear-gradient(to right, #d60022 5%, #ED220C 95%);
+}
+
+.signUpHeader img {
+    width: 80px;
+    margin-left: 615px;
+}
+
+.signUpHeader .logInDetailSection {
+    list-style: none;
+    float: right;
+    margin-right: 60px;
+    margin-top: -30px;
+}
+
+.logInDetailSection li {
+    display: inline-block;
+    padding: 2px;
+    color: #F9F9F9;
+}
