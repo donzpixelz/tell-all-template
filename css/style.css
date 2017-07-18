@@ -200,7 +200,7 @@ borderThree p {
 .signUpHeader img {
     padding-top: 2px;
     width: 70px;
-    margin-left: 625px;
+    margin-left: 670px;
 }
 
 .signUpHeader .logInDetailSection {
@@ -214,4 +214,44 @@ borderThree p {
     display: inline-block;
     padding: 2px;
     color: #F9F9F9;
+}
+
+.signUpIntroText h3 {
+    margin-top: 80px;
+    font-weight: bold;
+    color: #3e3c3c;
+}
+
+.signUpForm {
+    color: #3e3c3c;
+    width: 32%;
+    padding: 11px;
+    margin-top: 25px;
+    border: 1px solid #e2dfdf;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-left: 490px;
+}
+
+.signUpForm:focus {
+    border: 1px solid #ED220C;
+}
+
+.signUpButton {
+    margin-left: 488px;
+    padding: 15px;
+    font-weight: bold;
+    color: #F9F9F9;
+    font-size: 18px;
+    background: #d60022;
+    border: 1px solid #d60022;
+    border-radius: 28px;
+    width: 32%;
+    margin-top: 50px;
+}
+
+.signUpText {
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 499px;
 }
