@@ -222,7 +222,8 @@ borderThree p {
     color: #3e3c3c;
 }
 
-.signUpForm {
+.signUpForm,
+.logInForm {
     color: #3e3c3c;
     width: 32%;
     padding: 11px;
@@ -233,11 +234,13 @@ borderThree p {
     margin-left: 490px;
 }
 
-.signUpForm:focus {
+.signUpForm:focus,
+.logInForm:focus {
     border: 1px solid #ED220C;
 }
 
-.signUpButton {
+.signUpButton,
+.logInButton {
     margin-left: 488px;
     padding: 15px;
     font-weight: bold;
@@ -254,4 +257,25 @@ borderThree p {
     text-align: justify;
     margin-top: 20px;
     margin-left: 499px;
+}
+
+
+/*----------------------end of signup styling--------------*/
+
+.logInSection h3 {
+    margin-top: 80px;
+}
+
+.logInText {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.logInForm {
+    margin-top: 30px;
+}
+
+.logInButton {
+    margin-top: 35px;
 }
